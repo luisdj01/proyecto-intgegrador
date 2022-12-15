@@ -1,0 +1,53 @@
+h1 {
+	text-align: center;
+	padding: 12px;	
+}
+/* Formulario */
+.main-section{
+    margin:0 auto;
+    margin-top:25%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: #3b4652;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+}
+.user-img{
+    margin-top: -60px;
+    margin-bottom: 35px;
+}
+
+.user-img img{
+    width: 100xp;
+    height: 100px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 50%;
+}
+
+.Login input{
+    height: 42px; 
+    font-size: 18px;
+    border: 1px;;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+
+.Login::before{
+    font-family: "Font Awesome\ 5 Free";
+    font-weight: 900; 
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+
+.Login#user-group::before{
+    content: "\f007";
+}
+
+.Login#password-group::before{
+    content: "\f023";
+}
